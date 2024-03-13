@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icono"
+        android:label="HorasTC"
+        android:roundIcon="@drawable/icono"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HorasTCU"
+        tools:targetApi="31">
+        <activity
+            android:name=".act_login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".act_register"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".act_modulo_usuario"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".act_modulo_profesor"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".act_detalle_actividad"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".act_crear_actividad"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".act_nuevo_reporte"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".act_reportes"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".act_olv_contrasena"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".act_contra_nueva"
+            android:exported="true">
+        </activity>
+
+    </application>
+
+</manifest>

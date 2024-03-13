@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1082167404663",
+    "project_id": "horastcu-150cb",
+    "storage_bucket": "horastcu-150cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082167404663:android:d59f036ef6126d6c4d3e72",
+        "android_client_info": {
+          "package_name": "com.example.horastcu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKyd5TwiXImBfKsN2km7Aju-TtgNimgWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
